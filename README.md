@@ -394,3 +394,72 @@ USER= postgres
 4. **Access the Application:**
    Open your browser and go to `http://localhost:3000` to access the SPA application.
 
+
+
+Certainly! Below is a simple README file that provides instructions for Task 3. It includes information about the task, the programming languages allowed, and examples of the two required programs.
+
+---
+
+# Task 3: Pattern Printing and Fibonacci Series
+
+## Language Options:
+- Javascript
+
+## Instructions:
+
+### 1. Pattern Printing Program:
+
+#### Input:
+- The program expects a lucky number as input.
+
+#### Output:
+- It prints a specific pattern based on the lucky number.
+
+#### Example:
+
+```
+Please enter your lucky number: 5
+Page 5
+        1
+      1 3 A
+    1 3 5 A B
+  1 3 5 7 A B C
+1 3 5 7 9 A B C D
+ 1 3 5 7 A B C
+   1 3 5 A B
+     1 3 A
+       1
+
+```
+
+### 2. Fibonacci Series Program:
+
+#### Input:
+- The program takes a number as input.
+
+#### Output:
+- It prints the Fibonacci series up to the number that is less than the given input.
+
+#### Example:
+
+```
+User input: 120
+Program output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
+
+User input: 5
+Program output: 0, 1, 1, 2, 3, 5
+
+User input: 10
+Program output: 0, 1, 1, 2, 3, 5, 8
+```
+
+## Running the Programs:
+
+```
+node problem-1.js
+```
+
+```
+node problem-2.js
+```
+
