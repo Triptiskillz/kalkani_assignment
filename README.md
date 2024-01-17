@@ -345,6 +345,18 @@ http://localhost:4000/addresses/4
   "message": "Address deleted successfully"
 }
 ```
+## Database Connection
+
+You have to go inside the server file create a .env file and pass these values inside it.
+
+```bash
+USER= postgres
+ HOST= localhost
+ DATABASE= //database name
+ PASSWORD= // database password
+ DBPORT= 5432
+```
+
 ## Getting Started
 
 1. **Clone the Repository:**
